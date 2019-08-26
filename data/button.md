@@ -1,0 +1,8 @@
+---
+title: Button
+slug: button
+---
+
+<Button>
+	$0
+</Button>

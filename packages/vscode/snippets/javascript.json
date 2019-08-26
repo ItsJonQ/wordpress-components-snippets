@@ -1,0 +1,10 @@
+{
+  "wordpress-components-button": {
+    "prefix": "wp-button",
+    "body": [
+      "<Button>",
+      "\t$0",
+      "</Button>"
+    ]
+  }
+}

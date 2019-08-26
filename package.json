@@ -1,0 +1,19 @@
+{
+	"name": "wordpress-components-snippets",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
+	"license": "MIT",
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "2.4.0",
+		"eslint": "^5.16.0",
+		"glob": "7.1.4",
+		"gray-matter": "4.0.2",
+		"mkdirp": "0.5.1",
+		"prettier": "https://github.com/Automattic/wp-prettier/releases/download/wp-1.17.0/wp-prettier-1.17.0.tgz"
+	}
+}
