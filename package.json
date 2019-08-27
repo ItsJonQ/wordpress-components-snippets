@@ -1,7 +1,7 @@
 {
 	"name": "wordpress-components-snippets",
 	"displayName": "WordPress Components Snippets",
-	"description": "Handy snippets for @wordpress/components",
+	"description": "WordPress React component snippets, from @wordpress/components.",
 	"version": "0.0.7",
 	"scripts": {
 		"generate:vscode": "node scripts/generate-vscode-snippets.js",
@@ -25,13 +25,16 @@
 	"keywords": [
 		"wordpress",
 		"components",
+		"component",
 		"wp",
 		"gutenberg",
 		"gute",
 		"snippets",
+		"snippet",
 		"react",
 		"javascript",
-		"typescript"
+		"typescript",
+		"jsx"
 	],
 	"repository": {
 		"type": "git",
