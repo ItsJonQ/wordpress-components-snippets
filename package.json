@@ -1,9 +1,8 @@
 {
 	"name": "wordpress-components-snippets",
 	"displayName": "WordPress Components Snippets",
-	"version": "0.0.6",
 	"description": "Handy snippets for @wordpress/components",
-	"main": "index.js",
+	"version": "0.0.6",
 	"scripts": {
 		"generate:vscode": "node scripts/generate-vscode-snippets.js",
 		"generate:readme": "node scripts/generate-readme.js",
@@ -42,14 +41,14 @@
 	"engines": {
 		"vscode": "^1.12.0"
 	},
-	"categories": [
-		"Snippets"
-	],
 	"galleryBanner": {
 		"color": "#ffffff",
 		"theme": "light"
 	},
 	"icon": "images/wordpress.png",
+	"categories": [
+		"Snippets"
+	],
 	"contributes": {
 		"snippets": [
 			{

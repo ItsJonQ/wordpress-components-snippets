@@ -1,0 +1,6 @@
+.vscode/**
+.gitignore
+data/**
+.editorconfig
+.eslintignore
+.eslintrc.js
