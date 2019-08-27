@@ -1,5 +1,7 @@
 # ✂️ WordPress Components Snippets
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/itsjonq.wordpress-components-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=itsjonq.wordpress-components-snippets)
+
 > Handy code snippets for @wordpress/components
 
 ![WordPress components snippets demo](./images/wp-components-snippets-demo.gif)
