@@ -20,12 +20,20 @@ npm install
 
 The snippets live in the `data/` directory as `.snip` files. These files are use front-matter to store data about the component. The body contains the markup the generator(s) use to create the snippets.
 
-### Building
+## Building
 
 To build the snippets, run the command:
 
 ```
 npm run build
+```
+
+## Publishing
+
+Run the following command with `patch`, `minor`, or `major`:
+
+```
+npm version patch
 ```
 
 <!-- SNIPPET-TABLE -->
