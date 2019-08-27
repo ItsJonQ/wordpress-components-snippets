@@ -50,30 +50,32 @@
 		"theme": "light"
 	},
 	"icon": "images/wordpress.png",
-	"snippets": [
-		{
-			"language": "javascript",
-			"path": "./dist/vscode/snippets.json"
-		},
-		{
-			"language": "javascriptreact",
-			"path": "./dist/vscode/snippets.json"
-		},
-		{
-			"language": "typescript",
-			"path": "./dist/vscode/snippets.json"
-		},
-		{
-			"language": "typescriptreact",
-			"path": "./dist/vscode/snippets.json"
-		},
-		{
-			"language": "typescript",
-			"path": "./dist/vscode/snippets.json"
-		},
-		{
-			"language": "typescriptreact",
-			"path": "./dist/vscode/snippets.json"
-		}
-	]
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./dist/vscode/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./dist/vscode/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./dist/vscode/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./dist/vscode/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./dist/vscode/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./dist/vscode/snippets.json"
+			}
+		]
+	}
 }
