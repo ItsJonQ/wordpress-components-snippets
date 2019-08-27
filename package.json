@@ -35,6 +35,9 @@
 		"url": "https://github.com/ItsJonQ/wordpress-components-snippets"
 	},
 	"publisher": "itsjonq",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
 	"categories": [
 		"Snippets"
 	],
