@@ -2,7 +2,7 @@
 	"name": "wordpress-components-snippets",
 	"displayName": "WordPress Components Snippets",
 	"description": "Handy snippets for @wordpress/components",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"scripts": {
 		"generate:vscode": "node scripts/generate-vscode-snippets.js",
 		"generate:readme": "node scripts/generate-readme.js",
