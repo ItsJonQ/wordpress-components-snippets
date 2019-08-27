@@ -1,7 +1,7 @@
 {
 	"name": "wordpress-components-snippets",
 	"displayName": "WordPress Components Snippets",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Handy snippets for @wordpress/components",
 	"main": "index.js",
 	"scripts": {
