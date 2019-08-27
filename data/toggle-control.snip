@@ -1,0 +1,11 @@
+---
+title: ToggleControl
+slug: toggle-control
+---
+
+<ToggleControl
+    help={ hasFixedBackground ? 'Has fixed background.' : 'No fixed background.' }
+    label="Fixed Background"
+    checked={ hasFixedBackground }
+    onChange={ () => setState( ( state ) => ( { hasFixedBackground: ! state.hasFixedBackground } ) ) }
+/>

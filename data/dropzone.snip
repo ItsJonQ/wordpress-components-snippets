@@ -1,0 +1,15 @@
+---
+title: DropZone
+slug: dropzone
+---
+
+<DropZoneProvider>
+	<div>
+		{ hasDropped ? 'Dropped!' : 'Drop something here' }
+		<DropZone
+			onDrop={ () => setState( { hasDropped: true } ) }
+			onFilesDrop={ () => setState( { hasDropped: true } ) }
+			onHTMLDrop={ () => setState( { hasDropped: true } )  }
+		/>
+	</div>
+</DropZoneProvider>

@@ -1,0 +1,13 @@
+---
+title: FontSizePicker
+slug: font-size-picker
+---
+
+<FontSizePicker
+	fontSizes={ fontSizes }
+	value={ fontSize }
+	fallbackFontSize={ fallbackFontSize }
+	onChange={ ( newFontSize ) => {
+		setState( { fontSize: newFontSize } );
+	} }
+/>

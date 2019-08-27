@@ -1,0 +1,15 @@
+---
+title: RadioControl
+slug: radio-control
+---
+
+<RadioControl
+	help="The type of the current user"
+	label="User type"
+	options={ [
+		{ label: 'Author', value: 'a' },
+		{ label: 'Editor', value: 'e' },
+	] }
+	onChange={ ( option ) => { setState( { option } ) } }
+	selected={ option }
+/>

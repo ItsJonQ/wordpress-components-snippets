@@ -1,0 +1,16 @@
+---
+title: Modal
+slug: modal
+---
+
+<Button isDefault onClick={ () => setState( { isOpen: true } ) }>
+	Open Modal
+</Button>
+{ isOpen && (
+	<Modal
+		title="This is my modal"
+		onRequestClose={ () => setState( { isOpen: false } ) }
+	>
+		$0
+	</Modal>
+) }

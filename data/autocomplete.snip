@@ -1,0 +1,17 @@
+---
+title: Animate
+slug: animate
+---
+
+<Autocomplete completers={ autocompleters }>
+	{ ( { isExpanded, listBoxId, activeId } ) => (
+		<div
+			aria-activedescendant={ activeId }
+			aria-autocomplete="list"
+			aria-expanded={ isExpanded }
+			aria-owns={ listBoxId }
+			contentEditable
+			suppressContentEditableWarning
+		/>$0
+	) }
+</Autocomplete>

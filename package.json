@@ -4,6 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"generate:vscode": "node scripts/generate-vscode-snippets.js",
+		"build": "npm run generate:vscode",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",

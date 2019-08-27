@@ -1,0 +1,12 @@
+---
+title: MenuItem
+slug: menu-item
+---
+
+<MenuItem
+	icon={ isActive ? 'yes' : 'no' }
+	isSelected={ isActive }
+	onClick={ () => setState( state => ( { isActive: ! state.isActive } ) ) }
+>
+	$0
+</MenuItem>

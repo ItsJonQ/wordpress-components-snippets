@@ -1,0 +1,13 @@
+---
+title: ClipboardButton
+slug: clipboard-button
+---
+
+<ClipboardButton
+	isPrimary
+	onCopy={ () => setState( { hasCopied: true } ) }
+	onFinishCopy={ () => setState( { hasCopied: false } ) }
+	text="Text to be copied."
+>
+	{ hasCopied ? 'Copied!' : 'Copy Text' }
+</ClipboardButton>

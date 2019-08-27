@@ -1,0 +1,14 @@
+---
+title: QueryControls
+slug: query-controls
+---
+
+<QueryControls
+	{ ...{ orderBy, order, numberOfItems } }
+	onOrderByChange={ ( orderBy ) => setState( { orderBy } ) }
+	onOrderChange={ ( order ) => setState( { order } ) }
+	categoriesList={ categories }
+	selectedCategoryId={ category }
+	onCategoryChange={ ( category ) => setState( { category } ) }
+	onNumberOfItemsChange={ ( numberOfItems ) => setState( { numberOfItems } ) }
+/>

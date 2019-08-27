@@ -1,0 +1,33 @@
+---
+title: ResizableBox
+slug: resizable-box
+---
+
+<ResizableBox
+	size={ {
+		height,
+		width,
+	} }
+	minHeight="50"
+	minWidth="50"
+	enable={ {
+		bottom: true,
+		bottomLeft: false,
+		bottomRight: true,
+		left: false,
+		right: true,
+		top: false,
+		topLeft: false,
+		topRight: false,
+	} }
+	onResizeStop={ ( event, direction, elt, delta ) => {
+		setAttributes( {
+			height: parseInt( height + delta.height, 10 ),
+			width: parseInt( width + delta.width, 10 ),
+		} );
+		toggleSelection( true );
+	} }
+	onResizeStart={ () => {
+		toggleSelection( false );
+	} }
+/>

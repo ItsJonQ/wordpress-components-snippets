@@ -1,0 +1,14 @@
+---
+title: TabPanel
+slug: tab-panel
+---
+
+<TabPanel className="my-tab-panel"
+	activeClass="active-tab"
+	onSelect={ onSelect }
+	tabs={ [ $0 ] }
+>
+	{
+		( tab ) => <p>{ tab.title }</p>
+	}
+</TabPanel>

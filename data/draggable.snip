@@ -1,0 +1,20 @@
+---
+title: Draggable
+slug: draggable
+---
+
+<Draggable
+	elementId="draggable-panel"
+	transferData={ { } }
+>
+{
+	( { onDraggableStart, onDraggableEnd } ) => (
+		<Dashicon
+			draggable
+			icon="move"
+			onDragEnd={ onDraggableEnd }
+			onDragStart={ onDraggableStart }
+		/>
+	)
+}
+</Draggable>
