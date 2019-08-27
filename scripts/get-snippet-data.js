@@ -1,4 +1,5 @@
 const fs = require( 'fs' );
+const path = require( 'path' );
 const glob = require( 'glob' );
 const matter = require( 'gray-matter' );
 
@@ -7,6 +8,16 @@ const { DATA_FILES } = require( './utils' );
 async function getSnippetData() {
 	const files = glob.sync( DATA_FILES );
 	const data = files.map( getDataFromFile );
+
+	return data;
+}
+
+function getSnippetNames() {
+	const files = glob.sync( DATA_FILES );
+	const data = files.map( ( file ) => {
+		const basename = path.basename( file );
+		return basename.replace( '.snip', '' );
+	} );
 
 	return data;
 }
@@ -38,3 +49,4 @@ function transformContent( content ) {
 }
 
 exports.getSnippetData = getSnippetData;
+exports.getSnippetNames = getSnippetNames;
