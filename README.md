@@ -2,6 +2,30 @@
 
 > Handy code snippets for @wordpress/components
 
+## Development
+
+First, we need to install some dependencies. This project uses a couple of dependencies to generate the snippets.
+
+Clone the repo to your computer, and run the command:
+
+```
+npm install
+```
+
+### "Snip" Files
+
+The snippets live in the `data/` directory as `.snip` files. These files are use front-matter to store data about the component. The body contains the markup the generator(s) use to create the snippets.
+
+### Building
+
+To build the snippets, run the command:
+
+```
+npm run build
+```
+
+<!-- SNIPPET-TABLE -->
+<!-- This table was automatically generated -->
 
 ## Snippets
 
@@ -62,4 +86,4 @@
 | `wp-tooltip` | [@wordpress/components/tooltip](https://github.com/WordPress/gutenberg/tree/master/packages/components/src/tooltip) |
 | `wp-tree-select` | [@wordpress/components/tree-select](https://github.com/WordPress/gutenberg/tree/master/packages/components/src/tree-select) |
 
-	
+<!-- /SNIPPET-TABLE -->

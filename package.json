@@ -1,13 +1,16 @@
 {
 	"name": "wordpress-components-snippets",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "Handy snippets for @wordpress/components",
 	"main": "index.js",
 	"scripts": {
 		"generate:vscode": "node scripts/generate-vscode-snippets.js",
 		"generate:readme": "node scripts/generate-readme.js",
-		"build": "npm run generate:vscode && npm run generate:readme",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"clean": "rm -rf dist",
+		"build": "npm run clean && npm run generate:vscode && npm run generate:readme",
+		"git:push": "git push --follow-tags",
+		"postversion": "npm run release",
+		"release": "vsce publish && npm run git:push"
 	},
 	"author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
 	"license": "MIT",
@@ -18,5 +21,51 @@
 		"gray-matter": "4.0.2",
 		"mkdirp": "0.5.1",
 		"prettier": "https://github.com/Automattic/wp-prettier/releases/download/wp-1.17.0/wp-prettier-1.17.0.tgz"
-	}
+	},
+	"keywords": [
+		"snippets",
+		"react",
+		"javascript",
+		"typescript",
+		"wordpress",
+		"components"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ItsJonQ/wordpress-components-snippets"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "light"
+	},
+	"icon": "images/wordpress.png",
+	"snippets": [
+		{
+			"language": "javascript",
+			"path": "./dist/snippets/snippets.json"
+		},
+		{
+			"language": "javascriptreact",
+			"path": "./dist/snippets/snippets.json"
+		},
+		{
+			"language": "typescript",
+			"path": "./dist/snippets/snippets.json"
+		},
+		{
+			"language": "typescriptreact",
+			"path": "./dist/snippets/snippets.json"
+		},
+		{
+			"language": "typescript",
+			"path": "./dist/snippets/snippets.json"
+		},
+		{
+			"language": "typescriptreact",
+			"path": "./dist/snippets/snippets.json"
+		}
+	]
 }
