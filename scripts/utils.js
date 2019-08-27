@@ -5,7 +5,7 @@ const DATA_DIR = path.join( ROOT_DIR, '/data' );
 const DATA_FILES = path.join( DATA_DIR, '*.snip' );
 
 const BUILD_DIR = path.join( ROOT_DIR, '/dist/' );
-const VSCODE_SNIPPETS_DIR = path.join( BUILD_DIR, '/vscode/' );
+const VSCODE_SNIPPETS_DIR = path.join( ROOT_DIR, '/snippets/' );
 const VSCODE_SNIPPETS_FILE = path.join( VSCODE_SNIPPETS_DIR, '/snippets.json' );
 
 const README_FILE = path.join( ROOT_DIR, '/README.md' );

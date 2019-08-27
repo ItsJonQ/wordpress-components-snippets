@@ -54,27 +54,27 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./dist/vscode/snippets.json"
+				"path": "./snippets/snippets.json"
 			}
 		]
 	}
