@@ -24,12 +24,15 @@
 		"prettier": "https://github.com/Automattic/wp-prettier/releases/download/wp-1.17.0/wp-prettier-1.17.0.tgz"
 	},
 	"keywords": [
+		"wordpress",
+		"components",
+		"wp",
+		"gutenberg",
+		"gute",
 		"snippets",
 		"react",
 		"javascript",
-		"typescript",
-		"wordpress",
-		"components"
+		"typescript"
 	],
 	"repository": {
 		"type": "git",
@@ -50,27 +53,27 @@
 	"snippets": [
 		{
 			"language": "javascript",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		},
 		{
 			"language": "javascriptreact",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		},
 		{
 			"language": "typescript",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		},
 		{
 			"language": "typescriptreact",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		},
 		{
 			"language": "typescript",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		},
 		{
 			"language": "typescriptreact",
-			"path": "./dist/snippets/snippets.json"
+			"path": "./dist/vscode/snippets.json"
 		}
 	]
 }
